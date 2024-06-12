@@ -56,6 +56,7 @@ function Inimigo(contexto, imagem, x, y, deslocamento, imgExplosao,
             for (var i in rets) {
             ctx.save();
             ctx.strokeStyle = 'black';
+            border.strokeStyle= '3px';
             ctx.strokeRect(rets[i].x, rets[i].y, rets[i].largura, rets[i].altura);
             ctx.restore();
             }
