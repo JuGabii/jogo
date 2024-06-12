@@ -62,7 +62,7 @@ function Nave(contexto, imagem, x, y, imgExplosao) {
                 var ctx = this.contexto;
                 for (var i in rets) {
                 ctx.save();
-                ctx.strokeStyle = 'yellow';
+                ctx.strokeStyle = "#001650";
                 ctx.strokeRect(rets[i].x, rets[i].y, rets[i].largura, rets[i].altura);
                 ctx.restore();
                 }
